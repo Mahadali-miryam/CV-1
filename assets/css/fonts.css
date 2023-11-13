@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@0;1&family=Raleway:ital@0;1&display=swap');
+
+
+
+h1{ 
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box ;
+    
+}
+h2{
+    background-color:#dbc2a4 ;
+    font-family: 'Lato', sans-serif;
+    color: black;
+}
+
+h4{
+    font-family: 'Lato', sans-serif;
+
+}
+
+p {
+    font-family: 'Raleway', sans-serif; 
+    margin: auto;
+}
+    
+
+li{
+    font-family: 'Raleway', sans-serif; 
+}
+ 

@@ -1,0 +1,59 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 1160px center;
+ }
+
+.container0{
+    margin: 0px;
+    display: grid;
+    grid-template-rows: auto;
+    background-color: #782221;
+    text-align: center;
+    padding: 30px;
+} 
+
+.contact{
+display: flex;
+background-color: #2c1d27;
+margin: 0px;
+padding: 15px;
+}
+
+
+.container{  
+    background-color:#782221;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 0.33fr 1fr;
+    color: white;
+}
+
+ .container2{
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 1fr;
+    overflow: hidden;
+    color: black;
+    background-color: white;
+ }
+
+ .container3{
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 1fr ;
+    overflow: hidden;
+    background-color: #782221;
+ }
+
+
+main{
+    /* height: 100px; */
+
+}
+
+.resume {
+    width: 1160px;
+    margin:auto;
+}
