@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@0;1&family=Raleway:ital@0;1&display=swap');
 
 body{
     margin: 0px;
@@ -5,6 +6,10 @@ body{
     width: 1160px center;
  }
 
+.resume {
+    width: 1160px;
+    margin:auto;
+}
 .profile-1{
     background-color: #782221;
     text-align: center;
@@ -12,9 +17,34 @@ body{
 } 
 
 .h1{
+    margin: 0px;
+    padding: 0px;
     padding-top:20px;
 }
 
+
+h2{
+    background-color:#dbc2a4 ;
+    font-family: 'Lato', sans-serif;
+    color: black;
+    
+}
+
+
+h4{
+    font-family: 'Lato', sans-serif;
+
+}
+
+p {
+    font-family: 'Raleway', sans-serif; 
+    margin: auto;
+}
+    
+
+li{
+    font-family: 'Raleway', sans-serif; 
+}
 .job{
     background-color: #782221;
     display: flex;
@@ -28,39 +58,45 @@ margin: 0px;
 padding: 35px;
 }
 
-
-.information-1{  
+.information-1{
+display: flex;
+}
+.right-side{  
     background-color:#782221;
-    margin: 0px;
-    display: grid;
-    grid-template-columns: 0.33fr 1fr;
     color: white;
+    width: 300px;
+}
+.right-side p{
+padding-left: 20px;
+text-align:center;
+}
+
+   
+.left-side h2{
+    border-left-width: 7px; 
+    border-left-style: solid;
+    border-left-color: #782221;
 }
 
  .information-2{
-    margin: 0px;
-    display: grid;
-    grid-template-columns: 1fr;
-    overflow: hidden;
     color: black;
     background-color: white;
+    padding-left: 20px;
+    width: 860px;
  }
 
- .social-networks{
+footer{
     margin: 0px;
-    display: grid;
-    grid-template-columns: 1fr ;
-    overflow: hidden;
+    padding-top: 20px;
     background-color: #782221;
+    padding-bottom: 20px;
+    text-align: center;
+
  }
-
-
-main{
-    /* height: 100px; */
-
+.datetime{
+    color: white;   
+    padding-top: 20px;
 }
 
-.resume {
-    width: 1160px;
-    margin:auto;
-}
+
+
