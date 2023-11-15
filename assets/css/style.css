@@ -8,32 +8,35 @@ body{
 
 .resume {
     width: 1160px;
-    margin:auto;
+    margin:auto; 
+    border-right: 1px solid;
 }
 .profile-1{
     background-color: #782221;
     text-align: center;
    padding-top: 30px;
+   padding-bottom: 1px;
 } 
+.profile-1 h1{
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
 
 .h1{
     margin: 0px;
     padding: 0px;
     padding-top:20px;
-}
-
+    font-family: 'Lato', sans-serif;
+} 
 
 h2{
     background-color:#dbc2a4 ;
     font-family: 'Lato', sans-serif;
-    color: black;
-    
+    color: black;   
 }
-
 
 h4{
     font-family: 'Lato', sans-serif;
-
 }
 
 p {
@@ -45,33 +48,43 @@ p {
 li{
     font-family: 'Raleway', sans-serif; 
 }
+
 .job{
     background-color: #782221;
     display: flex;
     padding: 20px;
-    padding-top: 10px;
+    padding-top: 1px;
 }
+
+.job p{
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
 .contact{
-display: flex;
 background-color: #2c1d27;
 margin: 0px;
 padding: 35px;
 }
 
+address{
+display: flex;
+}
+
 .information-1{
 display: flex;
 }
+
 .right-side{  
     background-color:#782221;
     color: white;
     width: 300px;
 }
 .right-side p{
+text-align: center;
 padding-left: 20px;
-text-align:center;
 }
 
-   
 .left-side h2{
     border-left-width: 7px; 
     border-left-style: solid;
