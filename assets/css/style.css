@@ -14,8 +14,8 @@ body{
 .profile-1{
     background-color: #782221;
     text-align: center;
-   padding-top: 30px;
-   padding-bottom: 1px;
+    padding-top: 30px;
+    padding-bottom: 1px;
 } 
 
 .profile-1 img{
@@ -29,6 +29,11 @@ body{
     font-family: 'Lato', sans-serif;
 }
 
+.profile-1:hover{
+    font-size:1.6em;
+    cursor: zoom-in;
+}
+    
 .h1{
     margin: 0px;
     padding: 0px;
@@ -87,9 +92,9 @@ display: flex;
     color: white;
     width: 300px;
 }
-.right-side p{
-text-align: center;
-padding-left: 20px;
+.right-side p:{
+    text-align: center;
+    padding-left: 20px;
 }
 
 .left-side h2{
