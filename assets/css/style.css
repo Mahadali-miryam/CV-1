@@ -17,6 +17,13 @@ body{
    padding-top: 30px;
    padding-bottom: 1px;
 } 
+
+.profile-1 img{
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0 0 10px #dbc2a4;
+}
+
 .profile-1 h1{
     color: white;
     font-family: 'Lato', sans-serif;
