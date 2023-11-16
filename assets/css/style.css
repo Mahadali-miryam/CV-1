@@ -11,6 +11,7 @@ body{
     margin:auto; 
     border-right: 1px solid;
 }
+
 .profile-1{
     background-color: #782221;
     text-align: center;
@@ -22,8 +23,8 @@ body{
     border-radius: 50%;
     background-color: white;
     box-shadow: 0 0 10px #dbc2a4;
-}
 
+}
 
 .profile-1 h1{
     color: white;
@@ -38,7 +39,6 @@ body{
 .image:hover img{ 
     transform: scale(1.2);
 }  
-
 
 .h1{
     margin: 0px;
@@ -62,7 +62,6 @@ p {
     margin: auto;
 }
     
-
 li{
     font-family: 'Raleway', sans-serif; 
 }
@@ -98,6 +97,7 @@ display: flex;
     color: white;
     width: 300px;
 }
+
 .right-side p{
     text-align: center;
     padding-left: 20px;
@@ -113,7 +113,7 @@ display: flex;
     color:#782221 ;
 }
 
- .information-2{
+.information-2{
     color: black;
     background-color: white;
     padding-left: 20px;
@@ -126,12 +126,11 @@ footer{
     background-color: #782221;
     padding-bottom: 20px;
     text-align: center;
+}
 
- }
 img:hover{
 opacity:0.8 ;
 }
-
 
 .datetime{
     color: white;   
