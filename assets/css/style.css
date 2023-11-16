@@ -24,6 +24,7 @@ body{
     box-shadow: 0 0 10px #dbc2a4;
 }
 
+
 .profile-1 h1{
     color: white;
     font-family: 'Lato', sans-serif;
@@ -33,7 +34,12 @@ body{
     font-size:1.6em;
     cursor: zoom-in;
 }
-    
+
+.image:hover img{ 
+    transform: scale(1.2);
+}  
+
+
 .h1{
     margin: 0px;
     padding: 0px;
@@ -92,7 +98,7 @@ display: flex;
     color: white;
     width: 300px;
 }
-.right-side p:{
+.right-side p{
     text-align: center;
     padding-left: 20px;
 }
@@ -101,6 +107,10 @@ display: flex;
     border-left-width: 7px; 
     border-left-style: solid;
     border-left-color: #782221;
+}
+
+.left-side:hover{
+    color:#782221 ;
 }
 
  .information-2{
@@ -118,6 +128,11 @@ footer{
     text-align: center;
 
  }
+img:hover{
+opacity:0.8 ;
+}
+
+
 .datetime{
     color: white;   
     padding-top: 20px;
